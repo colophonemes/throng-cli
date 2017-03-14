@@ -1,0 +1,32 @@
+{
+  "name": "throng-cli",
+  "version": "0.1.0",
+  "description": "CLI wrapper for Throng (Dead-simple one-liner for clustered Node.js apps)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin":{
+    "throng": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colophonemes/throng-cli.git"
+  },
+  "keywords": [
+    "throng",
+    "cluster",
+    "fork",
+    "pm"
+  ],
+  "author": "Sam Deere <dev@colophonemes.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colophonemes/throng-cli/issues"
+  },
+  "homepage": "https://github.com/colophonemes/throng-cli#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "throng": "^4.0.0"
+  }
+}
